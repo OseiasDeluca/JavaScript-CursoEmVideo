@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Operadores</title>
+</head>
+<body>
+    <script>
+        //Operadores aritméticos e de atribuição
+
+        // 5 + 7 = 2 - Adição
+        // 5 - 2 = 3 - Subtração
+        // 5 * 2 = 10 - Multiplicação
+        // 5 / 2 = 2.5 - Divisão
+        // 5 % 2 = 1 - Resto da divisão
+        // 5 ** 2 =  25 -Potência 
+
+        // Ordem de Precedência: (), **, *, /, %, +, -
+
+        var a = 5 + 3
+        console.log(a)
+        var b = a % 5
+        console.log(b)
+        var c = 5 * b ** 2
+        console.log(c)
+        var d = 10 - a / 2 
+        console.log(d)
+        var e = 6 * 2 / d
+        console.log(e)
+        var f = b % e + 4 / e
+        console.log(f)
+
+
+        var n = 3 // n vale 3
+        var n = n + 4 // atribuição, agora n vale 7
+        var n = n - 5 // subtração, agora n vale 2
+        var n = n * 4 // multiplicação, agora n vale 8
+        var n = n / 2 // divisão, agora n vale 4
+        var n = n ** 2 // exponenciação, agora n vale 16
+        var n = n % 5 // o resto da divisão, agora n vale 1
+        console.log(n)
+
+        //SIMPLICANDO
+
+        var n = 3
+        n += 4 // atribuição, agora n vale 7
+        n -= 5 // subtração, agora n vale 2
+        n *= 4 // multiplicação, agora n vale 8
+        n /= 2 // divisão, agora n vale 4
+        n **= 2 // exponenciação, agora n vale 16
+        n %= 5 // o resto da divisão, agora n vale 1
+        console.log(n)
+
+        //INCREMENTO
+
+        var x = 5
+        var x2 = 5
+
+        x = x + 1
+        // x += 1 // x = 7 - Simplifiquei e fiz a atribuição 
+        x ++ // x = 7 - Quando a variável rece ela mesma +1, podemos fazer assim
+        console.log(x) 
+
+        x2 = x2 - 1
+        // x2 -= 1 // x2 = 3
+        x2 -- // x2 = 3
+        console.log(x2) 
+
+    </script>
+</body>
+</html>
