@@ -1,12 +1,81 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-BR">
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Operadores</title>
 </head>
 <body>
-    
+    <script>
+        //  Operadores relacionais, lógicos e ternário.
+
+        // Relacionais 
+        // > = Maior
+        // < = Menor
+        // >= = Maior ou igual
+        // <= = Menor ou igual
+        // == Igual
+        // != = Não igual
+        // === = Idêntico
+
+        
+        //Fazer no NodeJs
+        //Abrir terminal ctrl+shift+'
+        5 > 2 - true;
+        7 < 4 - false;
+        8 >= 8 - true;
+        9 <= 2 - false;
+        5 == 5 - true;
+        4 != 4 - false;
+
+        //IDENTIDADE
+        5 == 5 - true
+        5 = '5' - true // Para o JavaScript nesse caso ele não analisa o tipo, mas somente a grandeza, logo 5(cinco) é igual à '5'(cinco);
+        5 === '5' - false // Com 3 operadores de igual, agora o JavaScript irá analisar qual é o tipo, logo o priemiro 5 é do tipo Number e não é indêntico(===) a '5' que é string.
+
+
+        //LÓGICOS
+
+        // ! = negação ou "não";
+        // ! = é unário ou é true ou false;
+        // Logo lemos assim: Aquilo que !(não) é false, é verdadeiro;
+        // Aquilo que é !(não) verdadeiro, é false;
+
+        // && = conjunção ou "e"; 
+        // V && V = V
+        // V && F = F
+        // F && V = F
+        // F && F = F
+
+        // || = Disjunção ou "ou"; 
+        // V || V = V
+        // V || F = V
+        // F || V = V
+        // F || F = F
+
+        // Ordem de Precedência: 
+        // (), **, *, /, %, +, -
+        // >, <, >=, <=
+        // !
+        // &&
+        // ||
+
+        //TERNÁRIO
+        
+        n1 = 6
+        n2 = 7
+        m = (n1 + n2) / 2
+
+        
+
+        m >= 7?'aprovado':'reprovado'
+
+        console.log(m)
+
+
+        teste?true:false
+        
+    </script>
 </body>
 </html>
